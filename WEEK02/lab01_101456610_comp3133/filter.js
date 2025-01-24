@@ -22,7 +22,7 @@ function filterDataByCountry(country, outputFile) {
         }
 
         const lines = data.split('\n');
-        const headers = lines[0]; // First line contains the headers
+        const headers = lines[0]; 
         const filteredData = lines.filter(line => line.includes(country));
 
         if (filteredData.length > 0) {
@@ -40,10 +40,10 @@ function filterDataByCountry(country, outputFile) {
     });
 }
 
-// Delete files if they already exist
+
 deleteFileIfExists(canadaFile);
 deleteFileIfExists(usaFile);
 
-// Filter and write data
+
 filterDataByCountry('Canada', canadaFile);
 filterDataByCountry('United States', usaFile);
