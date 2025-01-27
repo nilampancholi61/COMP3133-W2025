@@ -1,0 +1,22 @@
+{
+    "name": "lab2_mocha_test",
+    "version": "1.0.0",
+    "description": "A Node.js project for testing a calculator using Mocha and Chai",
+    "main": "calculator.js",
+    "scripts": {
+      "test": "mocha"
+    },
+    "keywords": [
+      "mocha",
+      "chai",
+      "testing",
+      "calculator"
+    ],
+    "author": "Nilam",
+    "license": "MIT",
+    "devDependencies": {
+      "chai": "^4.3.7",
+      "mocha": "^10.2.0"
+    }
+  }
+  
